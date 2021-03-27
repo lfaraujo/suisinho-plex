@@ -1,0 +1,80 @@
+17/03/2021 20:35:26 - [INFO] step=receiveMessage author=Felipekx, content=-add-movies & Teste1, Teste2
+17/03/2021 20:35:26 - [INFO] step=add_items items=Teste1,  Teste2 item_type=movies
+17/03/2021 20:37:44 - [INFO] We have logged in as Suisinho#2203
+17/03/2021 20:37:50 - [INFO] step=receiveMessage author=Felipekx, content=-add-movies & Teste1, Teste2
+17/03/2021 20:38:35 - [INFO] We have logged in as Suisinho#2203
+17/03/2021 20:38:39 - [INFO] step=receiveMessage author=Felipekx, content=-add-movies & Teste1, Teste2
+17/03/2021 20:38:39 - [INFO] step=add_items items=['Teste1', ' Teste2'] item_type=movies
+17/03/2021 20:38:39 - [WARNING] step=add_items_duplicate dupe_items=Teste1, Teste2
+17/03/2021 20:39:32 - [INFO] step=receiveMessage author=Felipekx, content=-remove-movies & Teste1
+17/03/2021 20:39:32 - [INFO] step=remove_item item=Teste1 item_type=movies
+17/03/2021 20:39:37 - [INFO] step=receiveMessage author=Felipekx, content=-remove-movies & Teste2
+17/03/2021 20:39:37 - [INFO] step=remove_item item=Teste2 item_type=movies
+19/03/2021 18:47:52 - [INFO] We have logged in as Suisinho#2203
+19/03/2021 18:48:31 - [INFO] step=receiveMessage author=Gustavo Oliveira, content=-hello
+19/03/2021 19:12:15 - [INFO] step=receiveMessage author=Felipekx, content=-play https://www.youtube.com/watch?v=_QfNMqigHPw&list=RD_QfNMqigHPw&start_radio=1
+19/03/2021 19:12:16 - [INFO] step=receiveMessage author=Groovy, content=
+19/03/2021 19:12:16 - [INFO] step=receiveMessage author=Groovy, content=
+19/03/2021 19:14:31 - [INFO] step=receiveMessage author=Groovy, content=
+19/03/2021 19:16:02 - [INFO] step=receiveMessage author=Felipekx, content=-skip
+19/03/2021 19:16:02 - [INFO] step=receiveMessage author=Groovy, content=
+19/03/2021 19:16:06 - [INFO] step=receiveMessage author=Felipekx, content=-skip
+19/03/2021 19:16:07 - [INFO] step=receiveMessage author=Groovy, content=
+19/03/2021 19:18:24 - [INFO] step=receiveMessage author=Felipekx, content=-skip
+19/03/2021 19:18:24 - [INFO] step=receiveMessage author=Groovy, content=
+19/03/2021 19:20:44 - [INFO] step=receiveMessage author=Groovy, content=
+19/03/2021 19:22:38 - [INFO] step=receiveMessage author=Groovy, content=
+19/03/2021 19:24:22 - [INFO] step=receiveMessage author=Felipekx, content=-skip
+19/03/2021 19:24:22 - [INFO] step=receiveMessage author=Groovy, content=
+19/03/2021 19:24:26 - [INFO] step=receiveMessage author=Felipekx, content=-kip
+19/03/2021 19:24:28 - [INFO] step=receiveMessage author=Felipekx, content=-skip
+19/03/2021 19:24:28 - [INFO] step=receiveMessage author=Groovy, content=
+19/03/2021 19:26:02 - [INFO] step=receiveMessage author=Groovy, content=
+19/03/2021 19:27:19 - [INFO] step=receiveMessage author=Felipekx, content=-skip
+19/03/2021 19:27:19 - [INFO] step=receiveMessage author=Groovy, content=
+19/03/2021 19:27:25 - [INFO] step=receiveMessage author=Felipekx, content=-skip
+19/03/2021 19:27:26 - [INFO] step=receiveMessage author=Groovy, content=
+19/03/2021 19:30:15 - [INFO] step=receiveMessage author=Groovy, content=
+19/03/2021 19:32:54 - [INFO] step=receiveMessage author=Groovy, content=
+19/03/2021 19:36:59 - [INFO] step=receiveMessage author=Groovy, content=
+19/03/2021 19:37:10 - [INFO] step=receiveMessage author=Felipekx, content=-skip
+19/03/2021 19:37:10 - [INFO] step=receiveMessage author=Groovy, content=
+19/03/2021 19:38:34 - [INFO] step=receiveMessage author=Felipekx, content=-play somebody you used to know
+19/03/2021 19:38:36 - [INFO] step=receiveMessage author=Groovy, content=
+19/03/2021 19:38:39 - [INFO] step=receiveMessage author=Felipekx, content=-skip
+19/03/2021 19:38:39 - [INFO] step=receiveMessage author=Groovy, content=
+19/03/2021 19:38:42 - [INFO] step=receiveMessage author=Felipekx, content=-skip
+19/03/2021 19:38:44 - [INFO] step=receiveMessage author=Groovy, content=
+19/03/2021 19:38:45 - [INFO] step=receiveMessage author=Felipekx, content=-skip
+19/03/2021 19:38:49 - [INFO] step=receiveMessage author=Groovy, content=
+19/03/2021 19:40:58 - [INFO] step=receiveMessage author=Felipekx, content=-skip
+19/03/2021 19:40:58 - [INFO] step=receiveMessage author=Groovy, content=
+19/03/2021 19:41:01 - [INFO] step=receiveMessage author=Felipekx, content=-skip
+19/03/2021 19:41:03 - [INFO] step=receiveMessage author=Groovy, content=
+19/03/2021 19:41:06 - [INFO] step=receiveMessage author=Felipekx, content=-skip
+19/03/2021 19:41:08 - [INFO] step=receiveMessage author=Groovy, content=
+19/03/2021 19:41:12 - [INFO] step=receiveMessage author=Felipekx, content=-skip
+19/03/2021 19:41:13 - [INFO] step=receiveMessage author=Groovy, content=
+19/03/2021 19:41:16 - [INFO] step=receiveMessage author=Felipekx, content=-skip
+19/03/2021 19:41:18 - [INFO] step=receiveMessage author=Groovy, content=
+19/03/2021 19:41:22 - [INFO] step=receiveMessage author=Felipekx, content=-skip
+19/03/2021 19:41:23 - [INFO] step=receiveMessage author=Groovy, content=
+19/03/2021 19:41:27 - [INFO] step=receiveMessage author=Felipekx, content=-skip
+19/03/2021 19:41:28 - [INFO] step=receiveMessage author=Groovy, content=
+19/03/2021 19:41:30 - [INFO] step=receiveMessage author=Felipekx, content=-skip
+19/03/2021 19:42:27 - [INFO] step=receiveMessage author=Felipekx, content=-play https://www.youtube.com/watch?v=MPjEdqHrHZQ&list=RD_QfNMqigHPw&index=15
+19/03/2021 19:42:27 - [INFO] step=receiveMessage author=Groovy, content=
+19/03/2021 19:44:21 - [INFO] step=receiveMessage author=Groovy, content=
+19/03/2021 19:45:10 - [INFO] step=receiveMessage author=Felipekx, content=-play
+19/03/2021 19:45:13 - [INFO] step=receiveMessage author=Felipekx, content=-skip
+19/03/2021 19:45:13 - [INFO] step=receiveMessage author=Groovy, content=
+19/03/2021 19:45:31 - [INFO] step=receiveMessage author=Felipekx, content=-clear
+19/03/2021 19:45:42 - [INFO] step=receiveMessage author=Felipekx, content=-play https://www.youtube.com/watch?v=P3KxXa7a6G8
+19/03/2021 19:45:42 - [INFO] step=receiveMessage author=Groovy, content=
+19/03/2021 19:47:32 - [INFO] step=receiveMessage author=Felipekx, content=-play https://www.youtube.com/watch?v=5jgaTSv_0yk
+19/03/2021 19:47:32 - [INFO] step=receiveMessage author=Groovy, content=
+19/03/2021 19:47:35 - [INFO] step=receiveMessage author=Groovy, content=
+19/03/2021 19:51:53 - [INFO] step=receiveMessage author=Felipekx, content=https://www.youtube.com/watch?v=uXxRalU5_Sc
+19/03/2021 19:52:00 - [INFO] step=receiveMessage author=Felipekx, content=-play https://www.youtube.com/watch?v=uXxRalU5_Sc
+19/03/2021 20:08:30 - [INFO] step=receiveMessage author=Groovy, content=
+23/03/2021 23:16:38 - [INFO] We have logged in as Suisinho#2203
