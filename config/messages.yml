@@ -1,0 +1,15 @@
+version: 1
+emoticons:
+  smile_cat: ":smile_cat:"
+  pouting_cat: ":pouting_cat:"
+  kissing_cat: ":kissing_cat:"
+  crying_cat: ":crying_cat_face:"
+messages:
+  add_success: "Item(ns) adicionado(s)! **PURR** "
+  remove_success: "O item foi removido com sucesso! **PURR** "
+  invalid_format_error: "O formato do(s) item(ns) enviado(s) é inválido! **MEOW** "
+  multiple_items: "Caso queira enviar mais de 1 item, utilize `,` para separar os itens."
+  single_item: "Apenas um item deve ser enviado por vez."
+  empty_list: "Ainda não há itens nesta lista! "
+  greetings: "Olá, %s! Segura a lista de comandos! Adicione sempre `&` após o comando! **MEOW** "
+  duplicate_items: "O(s) item(ns) **%s** já está(ão) na lista e não foi(ram) adicionado(s)! Os demais foram adicionados com sucesso! **PURR** "
