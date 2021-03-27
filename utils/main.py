@@ -1,6 +1,7 @@
 import os
 import discord
 import yaml
+from logging import config, getLogger
 
 
 def get_client():
@@ -8,10 +9,42 @@ def get_client():
 
 
 def get_client_id():
-    with open("utils/config/dc_config.yml", "r") as f:
-        config = yaml.safe_load(f.read())
+    with open("config/dc_config.yml", "r") as f:
+        discord_config = yaml.safe_load(f.read())
 
-    return config.get("client_id")
+    return discord_config.get("client_id")
+
+
+def get_logger():
+    with open("config/log_config.yml", "r") as f:
+        log_config = yaml.safe_load(f.read())
+        config.dictConfig(log_config)
+
+    return getLogger('main_app')
+
+
+def get_path(item_type):
+    with open("config/path_list.yml", "r") as f:
+        path_list = yaml.safe_load(f.read())
+        return path_list.get(item_type)
+
+
+def get_emoticon(emoticon):
+    with open("config/messages.yml", "r") as f:
+        messages_file = yaml.safe_load(f.read())
+
+        emoticons = messages_file.get("emoticons")
+
+        return emoticons.get(emoticon)
+
+
+def get_message(message):
+    with open("config/messages.yml", "r", encoding="UTF-8") as f:
+        messages_file = yaml.safe_load(f.read())
+
+        messages = messages_file.get("messages")
+
+        return messages.get(message)
 
 
 def is_empty(item_str):

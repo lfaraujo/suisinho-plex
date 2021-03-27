@@ -1,0 +1,4 @@
+version: 1
+movies: "data/lista_filmes.txt"
+series: "data/lista_series.txt"
+animes: "data/lista_animes.txt"

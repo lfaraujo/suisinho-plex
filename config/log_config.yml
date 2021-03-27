@@ -11,7 +11,7 @@ handlers:
   file:
     class: logging.handlers.RotatingFileHandler
     formatter: simple
-    filename: logger/logs/main_app.log
+    filename: logs/main_app.log
 loggers:
   main_app:
     level: INFO
