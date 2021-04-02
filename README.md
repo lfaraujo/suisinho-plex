@@ -15,7 +15,7 @@
 
   <img alt="Repository size" src="https://img.shields.io/github/repo-size/lfaraujo/suisinho-plex?color=56BEB8">
 
-  <img alt="License" src="https://img.shields.io/github/license/lfaraujo/suisinho-plex?color=56BEB8">
+  <img alt="License" src="https://img.shields.io/github/license/lfaraujo/suisinho-plex">
 
   <!-- <img alt="Github issues" src="https://img.shields.io/github/issues/lfaraujo/suisinho-plex?color=56BEB8" /> -->
 
