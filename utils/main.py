@@ -9,10 +9,15 @@ def get_client():
 
 
 def get_client_id():
-    with open("config/dc_config.yml", "r") as f:
-        discord_config = yaml.safe_load(f.read())
+    return os.environ["dc_client_id"]
 
-    return discord_config.get("client_id")
+
+def get_plex_auth():
+    return os.environ["plex-user"], os.environ["plex-password"]
+
+
+def get_server_address():
+    return os.environ["plex-server-address"]
 
 
 def get_logger():
@@ -32,7 +37,6 @@ def get_path(item_type):
 def get_emoticon(emoticon):
     with open("config/messages.yml", "r") as f:
         messages_file = yaml.safe_load(f.read())
-
         emoticons = messages_file.get("emoticons")
 
         return emoticons.get(emoticon)
@@ -41,10 +45,19 @@ def get_emoticon(emoticon):
 def get_message(message):
     with open("config/messages.yml", "r", encoding="UTF-8") as f:
         messages_file = yaml.safe_load(f.read())
-
         messages = messages_file.get("messages")
 
         return messages.get(message)
+
+
+def get_commands():
+    with open("config/messages.yml", "r", encoding="UTF-8") as f:
+        messages_file = yaml.safe_load(f.read())
+        commands = messages_file.get("commands")
+
+        commands_list = [commands.get(x) for x in commands]
+
+        return commands_list
 
 
 def is_empty(item_str):
@@ -82,6 +95,18 @@ def list_to_string(list_to_convert):
         return list_to_convert[0]
     else:
         return list_to_convert
+
+
+def list_obj_to_list_str(list_to_convert):
+    list_str = ""
+
+    for item in list_to_convert:
+        if "`" not in item:
+            list_str += "\n- `%s`" % item
+        else:
+            list_str += "\n%s" % item
+
+    return list_str
 
 
 def exists(file, items):
