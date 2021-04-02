@@ -71,8 +71,6 @@ $ pip install -r requirements.txt
 
 # Run the project
 $ python main.py
-
-# The server will initialize in the <http://localhost:3000>
 ```
 
 ## :memo: License ##
