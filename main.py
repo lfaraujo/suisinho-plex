@@ -1,23 +1,14 @@
 from utils.main import *
+from plex.main import *
 
 client = get_client()
 logger = get_logger()
-
-commands = {"-movies-list": "Lista de filmes a serem adicionados",
-            "-series-list": "Lista de séries a serem adicionadas",
-            "-animes-list": "Lista de animes a serem adicionados",
-            "-add-movies": "Adiciona filmes à lista. %s" % get_message("multiple_items"),
-            "-add-series": "Adiciona series à lista. %s" % get_message("multiple_items"),
-            "-add-animes": "Adiciona animes à lista. %s" % get_message("multiple_items"),
-            "-remove-movies": "Remove filmes da lista.  %s" % get_message("single_item"),
-            "-remove-series": "Remove series da lista. %s" % get_message("single_item"),
-            "-remove-animes": "Remove animes da lista. %s" % get_message("single_item"),
-            }
+token = get_access_token(get_plex_auth())
 
 
 @client.event
 async def on_ready():
-    logger.info("We have logged in as {0.user}".format(client))
+    logger.info("step=connectDiscord user={0.user}".format(client))
 
 
 @client.event
@@ -31,7 +22,9 @@ async def on_message(message):
 
     if message_content.startswith("-hello"):
         await message.channel.send(get_message("greetings") % message.author.name + get_emoticon("smile_cat"))
-        await message.channel.send(mount_commands())
+        await message.channel.send(list_obj_to_list_str(get_commands()))
+        await message.channel.send(get_message("usage_tips"))
+        await message.channel.send(get_message("multiple_items"))
 
     if message_content.startswith("-movies-list"):
         await message.channel.send(get_list("movies"))
@@ -60,14 +53,8 @@ async def on_message(message):
     if message_content.startswith("-remove-animes"):
         await message.channel.send(remove_item(convert_to_list(message_content), "animes"))
 
-
-def mount_commands():
-    message = ""
-
-    for command in commands:
-        message += "\n`%s` - %s" % (command, commands[command])
-
-    return message
+    if message_content.startswith("-avaiable-libraries"):
+        await message.channel.send(list_obj_to_list_str(get_libraries(token)))
 
 
 def add_items(items, item_type):
