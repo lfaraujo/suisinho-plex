@@ -1,5 +1,5 @@
 <div align="center" id="top"> 
-  <img src="./.github/app.gif" alt="Suisinho Plex" />
+  <img src="./.github/suisinho_img.png" alt="Suisinho Plex" />
 
   &#xa0;
 
@@ -33,8 +33,7 @@
 <hr> -->
 
 <p align="center">
-  <a href="#dart-about">About</a> &#xa0; | &#xa0; 
-  <a href="#sparkles-features">Features</a> &#xa0; | &#xa0;
+  <a href="#dart-about">About</a> &#xa0; | &#xa0;
   <a href="#rocket-technologies">Technologies</a> &#xa0; | &#xa0;
   <a href="#white_check_mark-requirements">Requirements</a> &#xa0; | &#xa0;
   <a href="#checkered_flag-starting">Starting</a> &#xa0; | &#xa0;
@@ -46,27 +45,18 @@
 
 ## :dart: About ##
 
-Describe your project
-
-## :sparkles: Features ##
-
-:heavy_check_mark: Feature 1;\
-:heavy_check_mark: Feature 2;\
-:heavy_check_mark: Feature 3;
+Suisinho Plex is a Discord bot designed to integrate with an existing [Plex Media Server](https://www.plex.tv/) and facilitate daily use.
 
 ## :rocket: Technologies ##
 
 The following tools were used in this project:
 
-- [Expo](https://expo.io/)
-- [Node.js](https://nodejs.org/en/)
-- [React](https://pt-br.reactjs.org/)
-- [React Native](https://reactnative.dev/)
-- [TypeScript](https://www.typescriptlang.org/)
+- [Python](https://www.python.org/)
 
 ## :white_check_mark: Requirements ##
 
-Before starting :checkered_flag:, you need to have [Git](https://git-scm.com) and [Node](https://nodejs.org/en/) installed.
+Before starting :checkered_flag:, you need to have [Python](https://www.python.org/) and all the [requirements](https://github.com/lfaraujo/suisinho-plex/blob/master/requirements.
+txt) installed. Besides that, you need to have an active Plex Media Server and all the enviroment variables defined.
 
 ## :checkered_flag: Starting ##
 
@@ -78,10 +68,10 @@ $ git clone https://github.com/lfaraujo/suisinho-plex
 $ cd suisinho-plex
 
 # Install dependencies
-$ yarn
+$ pip install -r requirements.txt
 
 # Run the project
-$ yarn start
+$ python main.py
 
 # The server will initialize in the <http://localhost:3000>
 ```
