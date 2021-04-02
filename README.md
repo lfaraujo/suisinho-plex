@@ -55,8 +55,7 @@ The following tools were used in this project:
 
 ## :white_check_mark: Requirements ##
 
-Before starting :checkered_flag:, you need to have [Python](https://www.python.org/) and all the [requirements](https://github.com/lfaraujo/suisinho-plex/blob/master/requirements.
-txt) installed. Besides that, you need to have an active Plex Media Server and all the enviroment variables defined.
+Before starting :checkered_flag:, you need to have [Python](https://www.python.org/) and all the [requirements](https://github.com/lfaraujo/suisinho-plex/blob/master/requirements.txt) installed. Besides that, you need to have an active Plex Media Server and all the enviroment variables defined.
 
 ## :checkered_flag: Starting ##
 
