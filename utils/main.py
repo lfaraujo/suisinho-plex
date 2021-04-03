@@ -21,7 +21,7 @@ def get_server_address():
 
 
 def get_logger():
-    if not os.path.exists("/logs"):
+    if not os.path.exists(os.getcwd() + "/logs"):
         os.system("mkdir logs")
 
     with open("config/log_config.yml", "r") as f:
