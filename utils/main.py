@@ -13,11 +13,11 @@ def get_client_id():
 
 
 def get_plex_auth():
-    return os.environ["plex-user"], os.environ["plex-password"]
+    return os.environ["plex_user"], os.environ["plex_password"]
 
 
 def get_server_address():
-    return os.environ["plex-server-address"]
+    return os.environ["plex_server_address"]
 
 
 def get_logger():
