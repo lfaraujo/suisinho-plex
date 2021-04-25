@@ -56,6 +56,21 @@ async def on_message(message):
     if message_content.startswith("-avaiable-libraries"):
         await message.channel.send(list_obj_to_list_str(get_libraries(token)))
 
+    if message_content.startswith("-avaiable-movies"):
+        await message.channel.send(list_obj_to_list_str(get_library_content(token, 'movies')))
+
+    if message_content.startswith("-avaiable-animes"):
+        await message.channel.send(list_obj_to_list_str(get_library_content(token, 'animes')))
+
+    if message_content.startswith("-avaiable-series"):
+        await message.channel.send(list_obj_to_list_str(get_library_content(token, 'series')))
+
+    if message_content.startswith("-avaiable-courses"):
+        await message.channel.send(list_obj_to_list_str(get_library_content(token, 'courses')))
+
+    if message_content.startswith("-avaiable-animated-series"):
+        await message.channel.send(list_obj_to_list_str(get_library_content(token, 'animated-series')))
+
 
 def add_items(items, item_type):
     if items is None:
