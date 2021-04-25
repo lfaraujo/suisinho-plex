@@ -48,7 +48,7 @@ def get_libraries(token):
 
 
 def get_library_content(token, section):
-    media_path = server_url + SECTIONS_URL + '%s/all' % media_type_ids[section]
+    media_path = server_url + SECTIONS_URL + '/%s/all' % media_type_ids[section]
     items = []
 
     headers = {'X-Plex-Token': token, 'Accept': 'application/json'}
